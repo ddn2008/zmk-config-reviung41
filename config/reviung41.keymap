@@ -36,10 +36,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
-&kp ESC  &kp EXCL    &kp AT             &kp HASH         &kp DLLR  &kp PRCNT           &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR   &kp DEL
-&trans   &kp UNDER   &kp PLUS           &kp LBRC         &kp RBRC  &kp PIPE            &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &kp GRAVE  &kp TILDE
-&trans   &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp CLCK  &kp DQT             &kp HOME   &kp END   &kp PG_UP  &kp PG_DN  &kp PSCRN  &mt RSHFT SPACE
-                                        &trans           &trans               &kp RET             &mo 3     &trans
+&kp ESC  &kp EXCL    &kp AT             &kp HASH         &kp DLLR  &kp PRCNT           &kp CARET    &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR         &kp DEL
+&trans   &kp UNDER   &kp PLUS           &kp LBRC         &kp RBRC  &kp PIPE            &kp LEFT     &kp DOWN  &kp UP     &kp RIGHT  &kp GRAVE        &kp TILDE
+&trans   &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp CLCK  &kp DQT             &kp C_POWER  &kp END   &kp PG_UP  &kp PG_DN  &kp PRINTSCREEN  &mt RSHFT SPACE
+                                        &trans           &trans               &kp RET               &mo 3     &trans
             >;
         };
 
