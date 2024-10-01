@@ -36,10 +36,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
-&kp ESC  &kp EXCL    &kp AT             &kp HASH         &kp DLLR  &kp PRCNT           &kp CARET    &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR         &kp DEL
-&trans   &kp UNDER   &kp PLUS           &kp LBRC         &kp RBRC  &kp PIPE            &kp LEFT     &kp DOWN  &kp UP     &kp RIGHT  &kp GRAVE        &kp TILDE
-&trans   &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp CLCK  &kp DQT             &kp C_POWER  &kp END   &kp PG_UP  &kp PG_DN  &kp PRINTSCREEN  &mt RSHFT SPACE
-                                        &trans           &trans               &kp RET               &mo 3     &trans
+&kp ESC  &kp EXCL    &kp AT             &kp HASH         &kp DLLR  &kp PRCNT          &kp CARET    &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR         &kp DEL
+&trans   &kp UNDER   &kp PLUS           &kp LBRC         &kp RBRC  &kp PIPE           &kp LEFT     &kp DOWN  &kp UP     &kp RIGHT  &kp GRAVE        &kp TILDE
+&trans   &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp CLCK  &kp DQT            &kp C_POWER  &kp END   &kp PG_UP  &kp PG_DN  &kp PRINTSCREEN  &mt RSHFT SPACE
+                                        &trans           &trans               &trans               &mo 3     &trans
             >;
         };
 
@@ -51,10 +51,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&trans  &kp N1     &kp N2     &kp N3    &kp N4    &kp N5              &kp N6  &kp N7  &kp N8  &kp N9   &kp N0   &kp DEL
-&trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH            &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6
-&trans  &kp ESC    &kp LGUI   &kp RALT  &kp CLCK  &kp DQT             &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-                              &trans    &mo 3               &kp BSPC          &trans  &trans
+&trans  &kp N1     &kp N2     &kp N3    &kp N4    &kp N5            &kp N6  &kp N7  &kp N8  &kp N9   &kp N0   &kp DEL
+&trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH          &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6
+&trans  &kp ESC    &kp LGUI   &kp RALT  &kp CLCK  &kp DQT           &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+                              &trans    &mo 3               &trans          &trans  &trans
             >;
         };
 
@@ -66,7 +66,7 @@
             //                                              |     |     |     |     |     |
 
             bindings = <
-&rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &none   &rgb_ug RGB_TOG          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &none   &rgb_ug RGB_TOG          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR_ALL
 &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &none   &none                    &bootloader   &none         &none         &none         &none         &none
 &none            &none            &none            &none            &none   &none                    &sys_reset    &none         &none         &none         &none         &none
                                                    &trans           &trans                   &tog 3                &trans        &trans
